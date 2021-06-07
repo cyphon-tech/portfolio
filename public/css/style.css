@@ -41,6 +41,10 @@ h6
   background-color: #f8f9fa;
   box-shadow: 2px 4px 13px 1px rgba(8, 8, 8, 0.04);
 }
+.foot {
+  background-color: #f8f9fa;
+  box-shadow: 2px 4px 13px 1px rgba(8, 8, 8, 0.04);
+}
 
 #logo {
   display: initial;
@@ -168,6 +172,14 @@ label {
 {
   height: 100%;
   width: 100%;
+}
+
+.toppic
+{
+  height: 50%;
+  width: 50%;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
 }
 #drop
 {
