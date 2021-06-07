@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+
+
+
+
+
+
+
+        <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Protfolio</title>
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" integrity="sha512-PgQMlq+nqFLV4ylk1gwUOgm6CtIIXkKwaIHp/PAIWHzig/lKZSEGKEysh0TCVbHJXCLN7WetD8TFecIky75ZfQ==" crossorigin="anonymous" />
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="img/weather07-128.webp" type="image/png">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <title>Document</title>
+</head>
+<body>
+   {{>navbar}} 
+
+
+{{!-- hero section starts  --}}
+
+
+    <div class="container-fluid mt-5">
+        <div class="row">
+            <div class="col-md-10 col-12 mx-auto">
+                <div class="row">
+                    <div class="col-md-6 col-12 hero-text order-md-0 order-1 d-flex justify-content-center align-items-start flex-column">
+                        <h1>WE WILL HELP YOU TO</h1>
+                        <H1>GROW YOUR BUSINESS</H1>
+                        <P>We are The Team of <span class="bold-style">
+                           professional Developer
+                        </span>  </P>
+                        <a href="#teamid">
+                                  <button class="btn-style btn-primary">Read More</button>
+                        </a>
+                        
+
+                    </div>
+                    <div class="col-md-6 col-12 hero-text order-md-1 order-0">
+                        <figure>
+                            {{!-- <img src="image/growth.svg" alt=""> --}}
+                            <img src="image/ctn.gif" alt="">
+                        </figure>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+{{!-- hero section end  --}}
+
+
+
+  
+{{!-- about us  starts  --}}
+{{>about}}
+{{!-- about us  end  --}}
+
+
+{{!-- service   starts  --}}
+{{>service}}
+{{!-- service  end  --}}
+
+{{!-- service   starts  --}}
+{{>website}}
+{{!-- service  end  --}}
+
+
+{{!-- maps   starts  --}}
+{{>team}}
+{{!-- maps  end  --}}
+
+{{!-- maps   starts  --}}
+{{>map}}
+{{!-- maps  end  --}}
+
+{{!--  contact  starts  --}}
+{{>contact}}
+{{!-- contact  end  --}}
+
+
+
+{{!--  footer  starts  --}}
+{{>footer}}
+{{!-- footer  end  --}}
+
+
+
+
+
+
+
+
+    {{!-- <script src="../jq/jquery.js"type="text/javascript"></script> --}}
+    <script src="../node_modules/jquery/dist"></script>
+    <script src="../node_modules/bootstrap/dist/js"></script>
+    {{!-- <script src="../js/bootstrap.js"type="text/javascript"></script> --}}
+</body>
+</html>
